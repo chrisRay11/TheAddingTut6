@@ -1,0 +1,224 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/problemarea">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:onClick="backBtn0"
+        android:text="Back"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:background="@drawable/counter_score" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="30dp"
+            android:text="Card Time" />
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@android:drawable/btn_radio"
+                android:gravity="center"
+                android:onClick="r10s"
+                android:textSize="12sp"
+                android:text="10s" />
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@android:drawable/btn_radio"
+                android:gravity="center"
+                android:onClick="r20s"
+                android:textSize="12sp"
+                android:text="20s" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@android:drawable/btn_radio"
+                android:gravity="center"
+                android:onClick="r30s"
+                android:textSize="12sp"
+                android:text="30s" />
+
+            <RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@android:drawable/btn_radio"
+                android:gravity="center"
+                android:onClick="rOff"
+                android:textSize="12sp"
+                android:text="Off" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="30dp"
+            android:text="Number of Cards" />
+
+
+        <RadioGroup
+            android:id="@+id/radioGroupc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioc0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@android:drawable/btn_radio"
+                android:gravity="center"
+                android:onClick="c10"
+                android:textSize="12sp"
+                android:text="10 cards" />
+
+            <RadioButton
+                android:id="@+id/radioc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@android:drawable/btn_radio"
+                android:gravity="center"
+                android:onClick="c20"
+                android:textSize="12sp"
+                android:text="20 cards" />
+
+            <RadioButton
+                android:id="@+id/radioc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@android:drawable/btn_radio"
+                android:gravity="center"
+                android:onClick="c30"
+                android:textSize="12sp"
+                android:text="30 cards" />
+
+
+            <RadioButton
+                android:id="@+id/radioc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@android:drawable/btn_radio"
+                android:gravity="center"
+                android:onClick="c100"
+                android:textSize="12sp"
+                android:text="100 cards" />
+
+
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button0"
+            style="?android:attr/button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:onClick="histClick"
+            android:background="@drawable/appbackbtm1"
+            android:textSize="30dp"
+            android:text="History" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/userEditText0"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:textSize="12sp"
+            android:ems="12" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/userEditText0"
+            android:layout_weight="2"
+            android:onClick="subText"
+            android:background="@drawable/appbackbtm1"
+            android:textSize="30dp"
+            android:text="Submit" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+

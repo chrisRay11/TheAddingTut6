@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<PreferenceCategory
+	    android:summary="Username and theme"
+	    android:title="User Options">
+	    	<EditTextPreference
+	    	    android:key="username"
+	    	    android:summary="Please enter your display name"
+	    	    android:title="Display Name"/>
+	    	<CheckBoxPreference 
+	    	    android:key="soundCheckBox"
+	    	    android:summary="On/Off"
+	    	    android:title="Sound on or off"/>
+	</PreferenceCategory>    
+	<PreferenceCategory 
+	    android:summary="Game options timer on off - time, card ammount, neg or pos"
+	    android:title="In Game Options">
+	    	<ListPreference 
+	    	    android:entries="@array/timerOptions"
+	    	    android:entryValues="@array/timerValues"
+	    	    android:key="timeSecValues"
+	    	    android:summary="Player time amount"
+	    	    android:title="Timer Select"
+	    	    />
+	    	<ListPreference 
+	    	    android:entries="@array/cardAmount"
+	    	    android:entryValues="@array/uCardAmount"
+	    	    android:key="userCardAmount"
+	    	    android:summary="Player card amount"
+	    	    android:title="Select Card Amount"
+	    	    />
+	    	<ListPreference 
+	    	    android:entries="@array/mathValues"
+	    	    android:entryValues="@array/uMathValues"
+	    	    android:key="userMathValues"
+	    	    android:summary="+ or - or + and -"
+	    	    android:title="Select Card Difficulty"
+	    	    />
+	</PreferenceCategory>
+
+
+
+
+</PreferenceScreen>

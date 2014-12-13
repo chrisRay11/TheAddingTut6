@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timerOptions">
+     <item>10 seconds</item>
+     <item>20 seconds</item>
+     <item>30 seconds</item>
+     <item>Off</item>
+     </string-array>
+ 
+   <string-array name="timerValues">
+     <item>10t</item>
+     <item>20t</item>
+     <item>30t</item>
+     <item>Offt</item>
+   </string-array>
+   
+   <string-array name="cardAmount">
+     <item>10 cards</item>
+     <item>20 cards</item>
+     <item>30 cards</item>
+     </string-array>
+ 
+   <string-array name="uCardAmount">
+     <item>10c</item>
+     <item>20c</item>
+     <item>30c</item>
+   </string-array>
+   
+   <string-array name="mathValues">
+     <item>-</item>
+     <item>+</item>
+     <item>- and +</item>
+     </string-array>
+ 
+   <string-array name="uMathValues">
+     <item>-c</item>
+     <item>+c</item>
+     <item>-+c</item>
+   </string-array>
+   
+</resources>
