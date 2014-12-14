@@ -3,38 +3,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bgtall01"
-    android:orientation="vertical" >
-<LinearLayout
+    android:orientation="vertical">
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:gravity="bottom"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/backButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="backBtn1"
             android:layout_weight="1"
+            android:background="@drawable/appbackbtm1"
+            android:onClick="backBtn1"
             android:text="Back"
-            android:textSize="30dp"
-            android:background="@drawable/appbackbtm1" />
+            android:textSize="30dp" />
 
         <Button
             android:id="@+id/homeButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="homebtn1"
             android:layout_weight="1"
+            android:background="@drawable/appbackbtm1"
+            android:onClick="homebtn1"
             android:text="Home"
-            android:textSize="30dp"
-            android:background="@drawable/appbackbtm1" />
+            android:textSize="30dp" />
     </LinearLayout>
+
     <ListView
         android:id="@+id/listView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#c8ffffff">
-    </ListView>
+        android:background="#c8ffffff"></ListView>
 
 </LinearLayout>

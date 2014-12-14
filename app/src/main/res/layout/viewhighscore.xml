@@ -2,8 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
-
+    android:orientation="vertical">
 
 
     <TableLayout
@@ -20,9 +19,9 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:visibility="gone"
+                android:background="#64ffffff"
                 android:text="namv"
-                android:background="#64ffffff" />
+                android:visibility="gone" />
 
             <TextView
                 android:id="@+id/textView1"
@@ -30,38 +29,38 @@
                 android:layout_height="fill_parent"
                 android:layout_gravity="left"
                 android:layout_weight="1"
-                android:textAlignment="viewStart"
+                android:background="#64ffffff"
                 android:text="namesv"
-                android:background="#64ffffff" />
+                android:textAlignment="viewStart" />
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:textAlignment="viewEnd"
+                android:background="#64ffffff"
                 android:text="timev"
-                android:background="#64ffffff" />
+                android:textAlignment="viewEnd" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:textAlignment="viewEnd"
+                android:background="#64ffffff"
                 android:text="scoreTrysv"
-                android:background="#64ffffff" />
+                android:textAlignment="viewEnd" />
+
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:textAlignment="viewEnd"
+                android:background="#64ffffff"
                 android:text="datev"
-                android:background="#64ffffff" />
+                android:textAlignment="viewEnd" />
 
         </TableRow>
-
 
 
     </TableLayout>

@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:id="@+id/menuSettings"
-        android:title="Settings"
         android:icon="@android:drawable/ic_menu_preferences"
+        android:title="Settings"
         android:titleCondensed="Settings">
         <menu>
             <item
                 android:id="@+id/t10"
                 android:title="10 Seconds"
-                android:titleCondensed="10">
-            </item>
+                android:titleCondensed="10"></item>
             <item
                 android:id="@+id/t20"
                 android:title="20 Seconds"
-                android:titleCondensed="20">
-            </item>
+                android:titleCondensed="20"></item>
             <item
                 android:id="@+id/t30"
                 android:title="30 Seconds"
-                android:titleCondensed="30">
-            </item>
+                android:titleCondensed="30"></item>
         </menu>
     </item>
     <item
@@ -32,18 +29,15 @@
             <item
                 android:id="@+id/ca10"
                 android:title="10 Cards"
-                android:titleCondensed="10">
-            </item>
+                android:titleCondensed="10"></item>
             <item
                 android:id="@+id/ca20"
                 android:title="20 Cards"
-                android:titleCondensed="20">
-            </item>
+                android:titleCondensed="20"></item>
             <item
                 android:id="@+id/ca30"
                 android:title="30 Cards"
-                android:titleCondensed="30">
-            </item>
+                android:titleCondensed="30"></item>
         </menu>
     </item>
     <item
@@ -54,13 +48,11 @@
             <item
                 android:id="@+id/Ton"
                 android:title="Timer on"
-                android:titleCondensed="Ton">
-            </item>
+                android:titleCondensed="Ton"></item>
             <item
                 android:id="@+id/Toff"
                 android:title="Timer Off"
-                android:titleCondensed="Toff">
-            </item>
+                android:titleCondensed="Toff"></item>
         </menu>
     </item>
     <item
@@ -72,14 +64,12 @@
             <item
                 android:id="@+id/pos"
                 android:title="Positive"
-                android:titleCondensed="pos">
-            </item>
+                android:titleCondensed="pos"></item>
             <item
                 android:id="@+id/posneg"
                 android:title="Positive + Negitive"
-                android:titleCondensed="posNeg">
-            </item>
-            
+                android:titleCondensed="posNeg"></item>
+
         </menu>
     </item>
 
